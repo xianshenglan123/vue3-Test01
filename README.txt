@@ -19,3 +19,18 @@
 
 7、propts, 父组件传递数据给自组件使用
   let props = withDefaults(defineProps<{ list: Persons }>(), {list: () => [{ id: "0", name: "佚名", age: 0 }]})
+
+8、vue2的8个生命周期
+  1、创建 2、挂载 3、更新 4、销毁
+
+9、vue3的生命周期
+  1、挂载 2、更新 3、销毁
+
+10、Hooks 的使用
+  hooks其实就是将相关的数据和方法封装到一个文件中并将其暴露出去
+    export default () => {
+      let dogs: Array<string> = reactive([])
+      async function getDog() {
+      }
+      return { dogs, getDog }
+   }
