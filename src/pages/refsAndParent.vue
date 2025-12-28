@@ -1,5 +1,5 @@
 <template>
-  <div>首页</div>
+  <div>$refs、$parent</div>
 </template>
 
 <script lang="ts" setup></script>

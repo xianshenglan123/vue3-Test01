@@ -1,5 +1,5 @@
 <template>
-  <div>新闻</div>
+  <div>provide、inject</div>
 </template>
 
 <script lang="ts" setup></script>
